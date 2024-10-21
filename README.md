@@ -59,6 +59,6 @@ To get the **Instagram-Clone** up and running locally, follow these simple steps
 ---
 
 ### Notes:
-- Ensure you have the correct environment variables set up in `.env` files for both the frontend and backend.
 - You will have to change the Cloudinary API's and JWT keys.
+- In Frontend>Src>Components>Createpost.jsx, please do change the Cloudinary API for creation of URL for Photos.
 
