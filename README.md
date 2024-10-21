@@ -60,5 +60,6 @@ To get the **Instagram-Clone** up and running locally, follow these simple steps
 
 ### Notes:
 - You will have to change the Cloudinary API's and JWT keys.
-- In Frontend>Src>Components>Createpost.jsx, please do change the Cloudinary API for creation of URL for Photos.
+- In frontend>src>components>Createpost.jsx, please do change the Cloudinary API for creation of URL for Photos ie PostDetails API.
+- In backend there is a file named keys.js, please do change the mongodb's url and jwt key too.
 
