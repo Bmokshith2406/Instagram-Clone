@@ -1,0 +1,4 @@
+Username = "hellodear7931"
+Password = "Projects@1309"
+
+connection url = "mongodb+srv://hellodear7931:<password>@cluster0.frtrumx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

@@ -1,0 +1,165 @@
+.profile {
+  max-width: 900px;
+  margin: 10px auto;
+  margin-left: 500px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+.profile-frame {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.profile-pic {
+  height: fit-content;
+}
+
+.Linesu{
+  min-width: auto;
+  margin: auto;
+}
+
+.profile-pic > img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover; /* Ensure the image fills the circle */
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.profile-data {
+  text-align: left;
+}
+
+.profile-info p {
+  padding: 0px 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+  text-align: center;
+}
+
+.gallery .item {
+  height: 250px;
+  width: 250px; 
+  overflow: hidden; }
+
+.item { 
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover;
+}
+
+.followBtn {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 13px 25px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: #0115eb;
+  transition: all 0.25s ease;
+  margin-left: 20px;
+}
+
+.followBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px -10px #0115eb;
+}
+
+.changePic {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.changePic div {
+  padding: 15px 80px;
+}
+
+.upload-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Linesu{
+    min-width: auto;
+    margin: auto;
+  }
+  .profile {
+    margin-left: 0px;
+  }
+  .profile-frame {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-pic > img{
+    margin-right: 0px;
+  }
+
+  .profile-data {
+    text-align: left;
+  }
+  h1{
+    text-align: center;
+  }
+  .profile-info p {
+    padding: 0px 10px;
+    margin-top: 15px;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
+
+  .gallery .item {
+    height: auto; /* Adjust height for medium screens */
+    width: auto; /* Adjust width for medium screens */
+    margin: auto;
+  }
+
+  .gallery .item img {
+    width: auto; /* Adjust width for medium screens */
+    height: auto; /* Adjust height for medium screens */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr; 
+  }
+
+  .gallery .item {
+    height: auto; 
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+
+  .gallery .item img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  }
+
+  .followBtn {
+    margin-top: 10px; 
+  }
+}

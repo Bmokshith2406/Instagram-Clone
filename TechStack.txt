@@ -1,0 +1,17 @@
+1. NODE JS
+2. NODEMON
+3. EXPRESS
+4. MONGOOSE
+5. MONGODB-- find, findOne, insert, insertOne, populate
+6. BCRYPT
+7. CORS
+8. HTML
+9. CSS
+10. REACT
+11. JAVA-SCRIPT
+12. Toastify
+13. Cloudinary
+14. Context API
+
+
+
